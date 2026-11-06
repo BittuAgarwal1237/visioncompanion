@@ -1,0 +1,269 @@
+{
+  "@@locale": "hi",
+  "appName": "विज़न कम्पैनियन",
+  "splashLoading": "लोड हो रहा है",
+  "navHome": "होम",
+  "navHistory": "इतिहास",
+  "navSettings": "सेटिंग्स",
+  "loginTitle": "वापसी पर स्वागत है",
+  "loginSubtitle": "जहाँ छोड़ा था वहीं से शुरू करने के लिए साइन इन करें।",
+  "registerTitle": "अपना खाता बनाएँ",
+  "registerSubtitle": "बस एक मिनट लगेगा।",
+  "nameLabel": "पूरा नाम",
+  "emailLabel": "ईमेल",
+  "passwordLabel": "पासवर्ड",
+  "showPassword": "पासवर्ड दिखाएँ",
+  "hidePassword": "पासवर्ड छिपाएँ",
+  "signInButton": "साइन इन करें",
+  "registerButton": "खाता बनाएँ",
+  "switchToRegister": "नए हैं? खाता बनाएँ",
+  "switchToLogin": "पहले से खाता है? साइन इन करें",
+  "continueWithGoogle": "Google से जारी रखें",
+  "orDivider": "या",
+  "signingIn": "साइन इन हो रहा है, कृपया प्रतीक्षा करें",
+  "errNameRequired": "कृपया अपना नाम दर्ज करें",
+  "errEmailInvalid": "सही ईमेल पता दर्ज करें",
+  "errPasswordShort": "कम से कम 6 अक्षर रखें",
+  "authInvalidCredentials": "ईमेल या पासवर्ड गलत है",
+  "authInvalidEmail": "कृपया सही ईमेल पता दर्ज करें",
+  "authEmailInUse": "इस ईमेल से खाता पहले से मौजूद है",
+  "authWeakPassword": "कोई मज़बूत पासवर्ड चुनें",
+  "authNetwork": "इंटरनेट कनेक्शन नहीं है। कृपया फिर कोशिश करें",
+  "authTooMany": "बहुत ज़्यादा कोशिशें हुईं। थोड़ा रुककर फिर प्रयास करें",
+  "authUnknown": "कुछ गड़बड़ हो गई। कृपया फिर कोशिश करें",
+  "greeting": "नमस्ते, {name}",
+  "@greeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "greetingSub": "आज आप क्या आज़माना चाहेंगे?",
+  "profileSemantics": "प्रोफ़ाइल: {name}, मेनू खोलने के लिए टैप करें",
+  "@profileSemantics": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeSectionTitle": "कोई टूल चुनें",
+  "detectorTitle": "लाइव ऑब्जेक्ट डिटेक्टर",
+  "detectorDescription": "कैमरा घुमाइए और रोज़मर्रा की चीज़ों के नाम तुरंत देखिए।",
+  "analyzerTitle": "AI इमेज एनालाइज़र",
+  "analyzerDescription": "फ़ोटो खींचिए और छोटा विवरण व स्मार्ट टैग पाइए।",
+  "startButton": "शुरू करें",
+  "featureCardLabel": "{title}। {summary}। शुरू करने के लिए दो बार टैप करें।",
+  "@featureCardLabel": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "summary": {
+        "type": "String"
+      }
+    }
+  },
+  "homeFootnote": "आप जो भी पहचानते या एनालाइज़ करते हैं, वह इतिहास में सेव हो जाता है।",
+  "profileSheetTitle": "आपकी प्रोफ़ाइल",
+  "signOut": "साइन आउट",
+  "historyTitle": "इतिहास",
+  "historyCount": "{count, plural, =0{अभी कुछ सेव नहीं है} =1{1 सेव किया गया परिणाम} other{{count} सेव किए गए परिणाम}}",
+  "@historyCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "historyEmptyTitle": "यहाँ अभी कुछ नहीं है",
+  "historyEmptyBody": "कोई फ़ीचर आज़माइए, आपके परिणाम यहाँ दिखेंगे।",
+  "historyFeature": "{type, select, detector{ऑब्जेक्ट डिटेक्शन} analyzer{इमेज विश्लेषण} other{गतिविधि}}",
+  "@historyFeature": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "historyRemoved": "प्रविष्टि हटा दी गई",
+  "historyLoadError": "आपका इतिहास लोड नहीं हो सका।",
+  "retryButton": "फिर कोशिश करें",
+  "detectorPageTitle": "ऑब्जेक्ट डिटेक्टर",
+  "cameraFeedLabel": "ऑब्जेक्ट डिटेक्शन के लिए लाइव कैमरा फ़ीड",
+  "pauseDetection": "डिटेक्शन रोकें",
+  "resumeDetection": "डिटेक्शन फिर शुरू करें",
+  "pauseButton": "रोकें",
+  "resumeButton": "चालू करें",
+  "detectorScanning": "चीज़ें खोजी जा रही हैं…",
+  "detectorPausedHint": "डिटेक्शन रुका हुआ है",
+  "detectorFound": "{count, plural, =1{1 चीज़ मिली} other{{count} चीज़ें मिलीं}}",
+  "@detectorFound": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "detectorTop": "सबसे संभावित: {name}, {percent}%",
+  "@detectorTop": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "announceObject": "{name}, {percent} प्रतिशत",
+  "@announceObject": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "inferenceTime": "{ms} मि.से.",
+  "@inferenceTime": {
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "cameraStarting": "कैमरा शुरू हो रहा है",
+  "detectorCameraDenied": "ऑब्जेक्ट पहचानने के लिए कैमरे की अनुमति चाहिए। कृपया फ़ोन की सेटिंग्स में अनुमति दें।",
+  "detectorCameraFailed": "कैमरा शुरू नहीं हो सका।",
+  "detectorModelFailed": "डिटेक्शन मॉडल लोड नहीं हो सका। जाँचें कि मॉडल फ़ाइल assets/models में रखी है।",
+  "detectorStopped": "डिटेक्शन अचानक रुक गया।",
+  "analyzerPageTitle": "इमेज एनालाइज़र",
+  "analyzerIdleTitle": "जब आप तैयार हों",
+  "analyzerIdleBody": "साफ़ फ़ोटो खींचिए, AI बताएगा कि उसमें क्या दिख रहा है।",
+  "tipLight": "अच्छी रोशनी से बेहतर नतीजे मिलते हैं।",
+  "tipSteady": "कैमरा स्थिर रखें और चीज़ को फ़्रेम में रखें।",
+  "captureButton": "फ़ोटो खींचें",
+  "captureAgain": "दूसरी फ़ोटो खींचें",
+  "analyzingStatus": "इमेज का विश्लेषण हो रहा है, कृपया प्रतीक्षा करें",
+  "processingLabel": "प्रोसेस हो रहा है",
+  "analysisDone": "विश्लेषण पूरा हुआ",
+  "resultDescriptionTitle": "AI को क्या दिख रहा है",
+  "resultTagsTitle": "टैग",
+  "tagSemantics": "टैग: {name}, {percent}% विश्वसनीयता",
+  "@tagSemantics": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "photoLabel": "आपकी खींची हुई फ़ोटो",
+  "analyzerNoInternet": "इंटरनेट कनेक्शन नहीं है। नेटवर्क जाँचकर फिर कोशिश करें।",
+  "analyzerTimeout": "अनुरोध में बहुत समय लगा। कृपया फिर कोशिश करें।",
+  "analyzerBusy": "AI सेवा अभी व्यस्त है। थोड़ी देर बाद फिर कोशिश करें।",
+  "analyzerBadKey": "API कुंजी स्वीकार नहीं हुई। .env फ़ाइल जाँचें।",
+  "analyzerMissingKey": "API कुंजी नहीं मिली। उसे .env फ़ाइल में जोड़ें।",
+  "analyzerParse": "जवाब पढ़ा नहीं जा सका। कृपया फिर कोशिश करें।",
+  "analyzerCameraFailed": "कैमरा नहीं खुल सका। अनुमति जाँचकर फिर कोशिश करें।",
+  "analyzerUnknown": "कुछ गड़बड़ हो गई। कृपया फिर कोशिश करें।",
+  "settingsTitle": "सेटिंग्स",
+  "languageTitle": "भाषा",
+  "languageEnglish": "English",
+  "languageHindi": "हिन्दी",
+  "languageChanged": "भाषा {language} में बदल गई है",
+  "@languageChanged": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "accountTitle": "खाता",
+  "objPerson": "व्यक्ति",
+  "objBicycle": "साइकिल",
+  "objCar": "कार",
+  "objMotorcycle": "मोटरसाइकिल",
+  "objAirplane": "हवाई जहाज़",
+  "objBus": "बस",
+  "objTrain": "ट्रेन",
+  "objTruck": "ट्रक",
+  "objBoat": "नाव",
+  "objTrafficLight": "ट्रैफ़िक लाइट",
+  "objFireHydrant": "फ़ायर हाइड्रेंट",
+  "objStopSign": "स्टॉप साइन",
+  "objParkingMeter": "पार्किंग मीटर",
+  "objBench": "बेंच",
+  "objBird": "पक्षी",
+  "objCat": "बिल्ली",
+  "objDog": "कुत्ता",
+  "objHorse": "घोड़ा",
+  "objSheep": "भेड़",
+  "objCow": "गाय",
+  "objElephant": "हाथी",
+  "objBear": "भालू",
+  "objZebra": "ज़ेबरा",
+  "objGiraffe": "जिराफ़",
+  "objBackpack": "बैकपैक",
+  "objUmbrella": "छाता",
+  "objHandbag": "हैंडबैग",
+  "objTie": "टाई",
+  "objSuitcase": "सूटकेस",
+  "objFrisbee": "फ्रिस्बी",
+  "objSkis": "स्की",
+  "objSnowboard": "स्नोबोर्ड",
+  "objSportsBall": "गेंद",
+  "objKite": "पतंग",
+  "objBaseballBat": "बेसबॉल बैट",
+  "objBaseballGlove": "बेसबॉल दस्ताना",
+  "objSkateboard": "स्केटबोर्ड",
+  "objSurfboard": "सर्फ़बोर्ड",
+  "objTennisRacket": "टेनिस रैकेट",
+  "objBottle": "बोतल",
+  "objWineGlass": "वाइन ग्लास",
+  "objCup": "कप",
+  "objFork": "काँटा",
+  "objKnife": "चाकू",
+  "objSpoon": "चम्मच",
+  "objBowl": "कटोरा",
+  "objBanana": "केला",
+  "objApple": "सेब",
+  "objSandwich": "सैंडविच",
+  "objOrange": "संतरा",
+  "objBroccoli": "ब्रोकली",
+  "objCarrot": "गाजर",
+  "objHotDog": "हॉट डॉग",
+  "objPizza": "पिज़्ज़ा",
+  "objDonut": "डोनट",
+  "objCake": "केक",
+  "objChair": "कुर्सी",
+  "objCouch": "सोफ़ा",
+  "objPottedPlant": "गमले का पौधा",
+  "objBed": "बिस्तर",
+  "objDiningTable": "डाइनिंग टेबल",
+  "objToilet": "शौचालय",
+  "objTv": "टीवी",
+  "objLaptop": "लैपटॉप",
+  "objMouse": "माउस",
+  "objRemote": "रिमोट",
+  "objKeyboard": "कीबोर्ड",
+  "objCellPhone": "मोबाइल फ़ोन",
+  "objMicrowave": "माइक्रोवेव",
+  "objOven": "ओवन",
+  "objToaster": "टोस्टर",
+  "objSink": "सिंक",
+  "objRefrigerator": "फ्रिज",
+  "objBook": "किताब",
+  "objClock": "घड़ी",
+  "objVase": "फूलदान",
+  "objScissors": "कैंची",
+  "objTeddyBear": "टेडी बियर",
+  "objHairDrier": "हेयर ड्रायर",
+  "objToothbrush": "टूथब्रश"
+}

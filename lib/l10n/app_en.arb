@@ -1,0 +1,269 @@
+{
+  "@@locale": "en",
+  "appName": "Vision Companion",
+  "splashLoading": "Loading",
+  "navHome": "Home",
+  "navHistory": "History",
+  "navSettings": "Settings",
+  "loginTitle": "Welcome back",
+  "loginSubtitle": "Sign in to pick up where you left off.",
+  "registerTitle": "Create your account",
+  "registerSubtitle": "It only takes a minute.",
+  "nameLabel": "Full name",
+  "emailLabel": "Email",
+  "passwordLabel": "Password",
+  "showPassword": "Show password",
+  "hidePassword": "Hide password",
+  "signInButton": "Sign in",
+  "registerButton": "Create account",
+  "switchToRegister": "New here? Create an account",
+  "switchToLogin": "Already registered? Sign in",
+  "continueWithGoogle": "Continue with Google",
+  "orDivider": "or",
+  "signingIn": "Signing in, please wait",
+  "errNameRequired": "Please enter your name",
+  "errEmailInvalid": "Enter a valid email address",
+  "errPasswordShort": "Use at least 6 characters",
+  "authInvalidCredentials": "Email or password is incorrect",
+  "authInvalidEmail": "Please enter a valid email address",
+  "authEmailInUse": "An account with this email already exists",
+  "authWeakPassword": "Choose a stronger password",
+  "authNetwork": "No internet connection. Please try again",
+  "authTooMany": "Too many attempts. Wait a little and try again",
+  "authUnknown": "Something went wrong. Please try again",
+  "greeting": "Hello, {name}",
+  "@greeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "greetingSub": "What would you like to try today?",
+  "profileSemantics": "Profile: {name}, tap to open menu",
+  "@profileSemantics": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeSectionTitle": "Pick a tool",
+  "detectorTitle": "Live Object Detector",
+  "detectorDescription": "Point your camera and watch everyday objects get named in real time.",
+  "analyzerTitle": "AI Image Analyzer",
+  "analyzerDescription": "Take a photo and get a short description with smart tags.",
+  "startButton": "Start",
+  "featureCardLabel": "{title}. {summary}. Double tap to start.",
+  "@featureCardLabel": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "summary": {
+        "type": "String"
+      }
+    }
+  },
+  "homeFootnote": "Everything you detect or analyze is saved in History.",
+  "profileSheetTitle": "Your profile",
+  "signOut": "Sign out",
+  "historyTitle": "History",
+  "historyCount": "{count, plural, =0{Nothing saved yet} =1{1 saved result} other{{count} saved results}}",
+  "@historyCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "historyEmptyTitle": "Nothing here yet",
+  "historyEmptyBody": "Try a feature and your results will show up here.",
+  "historyFeature": "{type, select, detector{Object detection} analyzer{Image analysis} other{Activity}}",
+  "@historyFeature": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "historyRemoved": "Entry removed",
+  "historyLoadError": "Could not load your history.",
+  "retryButton": "Try again",
+  "detectorPageTitle": "Object detector",
+  "cameraFeedLabel": "Live camera feed for object detection",
+  "pauseDetection": "Pause detection",
+  "resumeDetection": "Resume detection",
+  "pauseButton": "Pause",
+  "resumeButton": "Resume",
+  "detectorScanning": "Looking for objects…",
+  "detectorPausedHint": "Detection paused",
+  "detectorFound": "{count, plural, =1{1 object found} other{{count} objects found}}",
+  "@detectorFound": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "detectorTop": "Top match: {name}, {percent}%",
+  "@detectorTop": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "announceObject": "{name}, {percent} percent",
+  "@announceObject": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "inferenceTime": "{ms} ms",
+  "@inferenceTime": {
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "cameraStarting": "Starting camera",
+  "detectorCameraDenied": "Camera permission is needed to detect objects. Please allow it in your phone settings.",
+  "detectorCameraFailed": "The camera could not be started.",
+  "detectorModelFailed": "The detection model could not be loaded. Check that the model file is inside assets/models.",
+  "detectorStopped": "Detection stopped unexpectedly.",
+  "analyzerPageTitle": "Image analyzer",
+  "analyzerIdleTitle": "Ready when you are",
+  "analyzerIdleBody": "Take a clear photo and the AI will describe what it sees.",
+  "tipLight": "Good light gives better results.",
+  "tipSteady": "Hold steady and keep the subject in the frame.",
+  "captureButton": "Take photo",
+  "captureAgain": "Take another photo",
+  "analyzingStatus": "Analyzing image, please wait",
+  "processingLabel": "Processing",
+  "analysisDone": "Analysis complete",
+  "resultDescriptionTitle": "What the AI sees",
+  "resultTagsTitle": "Tags",
+  "tagSemantics": "Tag: {name}, {percent}% confidence",
+  "@tagSemantics": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "photoLabel": "Photo you captured",
+  "analyzerNoInternet": "No internet connection. Check your network and try again.",
+  "analyzerTimeout": "The request took too long. Please try again.",
+  "analyzerBusy": "The AI service is busy right now. Try again in a moment.",
+  "analyzerBadKey": "The API key was rejected. Check the .env file.",
+  "analyzerMissingKey": "The API key is missing. Add it to the .env file.",
+  "analyzerParse": "The answer could not be read. Please try again.",
+  "analyzerCameraFailed": "The camera could not be opened. Check the permission and try again.",
+  "analyzerUnknown": "Something went wrong. Please try again.",
+  "settingsTitle": "Settings",
+  "languageTitle": "Language",
+  "languageEnglish": "English",
+  "languageHindi": "हिन्दी",
+  "languageChanged": "Language changed to {language}",
+  "@languageChanged": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "accountTitle": "Account",
+  "objPerson": "Person",
+  "objBicycle": "Bicycle",
+  "objCar": "Car",
+  "objMotorcycle": "Motorcycle",
+  "objAirplane": "Airplane",
+  "objBus": "Bus",
+  "objTrain": "Train",
+  "objTruck": "Truck",
+  "objBoat": "Boat",
+  "objTrafficLight": "Traffic light",
+  "objFireHydrant": "Fire hydrant",
+  "objStopSign": "Stop sign",
+  "objParkingMeter": "Parking meter",
+  "objBench": "Bench",
+  "objBird": "Bird",
+  "objCat": "Cat",
+  "objDog": "Dog",
+  "objHorse": "Horse",
+  "objSheep": "Sheep",
+  "objCow": "Cow",
+  "objElephant": "Elephant",
+  "objBear": "Bear",
+  "objZebra": "Zebra",
+  "objGiraffe": "Giraffe",
+  "objBackpack": "Backpack",
+  "objUmbrella": "Umbrella",
+  "objHandbag": "Handbag",
+  "objTie": "Tie",
+  "objSuitcase": "Suitcase",
+  "objFrisbee": "Frisbee",
+  "objSkis": "Skis",
+  "objSnowboard": "Snowboard",
+  "objSportsBall": "Sports ball",
+  "objKite": "Kite",
+  "objBaseballBat": "Baseball bat",
+  "objBaseballGlove": "Baseball glove",
+  "objSkateboard": "Skateboard",
+  "objSurfboard": "Surfboard",
+  "objTennisRacket": "Tennis racket",
+  "objBottle": "Bottle",
+  "objWineGlass": "Wine glass",
+  "objCup": "Cup",
+  "objFork": "Fork",
+  "objKnife": "Knife",
+  "objSpoon": "Spoon",
+  "objBowl": "Bowl",
+  "objBanana": "Banana",
+  "objApple": "Apple",
+  "objSandwich": "Sandwich",
+  "objOrange": "Orange",
+  "objBroccoli": "Broccoli",
+  "objCarrot": "Carrot",
+  "objHotDog": "Hot dog",
+  "objPizza": "Pizza",
+  "objDonut": "Donut",
+  "objCake": "Cake",
+  "objChair": "Chair",
+  "objCouch": "Couch",
+  "objPottedPlant": "Potted plant",
+  "objBed": "Bed",
+  "objDiningTable": "Dining table",
+  "objToilet": "Toilet",
+  "objTv": "TV",
+  "objLaptop": "Laptop",
+  "objMouse": "Mouse",
+  "objRemote": "Remote",
+  "objKeyboard": "Keyboard",
+  "objCellPhone": "Cell phone",
+  "objMicrowave": "Microwave",
+  "objOven": "Oven",
+  "objToaster": "Toaster",
+  "objSink": "Sink",
+  "objRefrigerator": "Refrigerator",
+  "objBook": "Book",
+  "objClock": "Clock",
+  "objVase": "Vase",
+  "objScissors": "Scissors",
+  "objTeddyBear": "Teddy bear",
+  "objHairDrier": "Hair drier",
+  "objToothbrush": "Toothbrush"
+}
