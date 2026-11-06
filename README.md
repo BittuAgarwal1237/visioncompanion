@@ -4,7 +4,7 @@ A Flutter app that uses the phone camera in two ways. One screen finds objects l
 
 I built this for the ProxMaq Flutter assignment. It is Android only, since that is what I tested on.
 
-**APK download:** `PASTE_APK_LINK_HERE`
+**APK download:** `https://drive.google.com/drive/folders/1un1Zb12HoWlfonijQ7QyWtUni44qjAOh?usp=sharing`
 
 ## What it does
 
